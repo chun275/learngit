@@ -1,4 +1,10 @@
 git 命令:
+------------
+设置自己的username and email
+ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+-------------
+
 
 1 创建仓库
 mkdir test
@@ -39,3 +45,13 @@ git checkout filename --恢复文件
 2 存到暂存区,没有提交到工作区
 git reset HEAD filename --删除暂存区的内容
 git checkout file
+-------------------------
+git 的删除
+
+git rm  filename
+git commit 提交
+------
+git 远程仓库
+
+1推送代码到远程仓库
+git remote add origin git@github.com:michaelliao/learngit.gitgit remote add origin 
