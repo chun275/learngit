@@ -53,5 +53,11 @@ git commit 提交
 ------
 git 远程仓库
 
-1推送代码到远程仓库
-git remote add origin git@github.com:michaelliao/learngit.gitgit remote add origin 
+1关联代码到远程仓库 origin是远程仓库默认的名字, 
+git remote add origin git@github.com:chun275/learngit.gitgit remote add origin 
+2 git push -u origin master 把本地库的所有内容推送到远程仓库上  -u 会把本地分支和远程分支关联起来
+以后推送 只需要git push orgin master
+
+3 下载远程仓库到本地
+
+git clone git@github.com:chun275/chunzhengw.club.git
