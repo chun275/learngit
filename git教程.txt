@@ -1,0 +1,26 @@
+git 命令:
+
+1 创建仓库
+mkdir test
+ pwd 查看路径
+ ls -ah 查看隐藏文件
+ 
+2 git init 初始化,变成git可以管理的仓库
+
+3 git add filename 添加文件
+
+4 git commit -m "information" 提交文件
+
+5 git status 查看结果,看是否有没有提交的修改
+
+6 git diff  查看修改的明细
+
+7 版本回退 git log 查看提交日志
+8 git reset --hard HEAD^ 提交上一个版本(~100回退到100步)
+
+9git reset  --hard commitid(前几位就行)(穿梭到后来的版本)
+
+10 git reflog 记录命令和commitid (穿梭时候忘记版本号)
+
+
+
