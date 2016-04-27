@@ -31,6 +31,11 @@ git版本库中存了许多东西, 最重要的是stage(暂存区)
 git add 命令是把文件添加进去,把文件修改添加到暂存区
 git commit 命令是把暂存区的所有内容提交到当前分支
 
+------------------
+git 的 修改和恢复
 
-
-
+1 没有存储到暂存区
+git checkout filename --恢复文件
+2 存到暂存区,没有提交到工作区
+git reset HEAD filename --删除暂存区的内容
+git checkout file
