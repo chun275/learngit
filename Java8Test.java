@@ -12,6 +12,7 @@ import java.util.function.Predicate;
  * 
  * @author Administrator
  *测试
+ *测试github提交修改
  */
 public class Java8Test { 
 
